@@ -8,34 +8,34 @@ const items = [
   {
     id: 1,
     color: "from-red-300 to-blue-300",
-    title: "React Commerce",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    title: "Orion Training Institution",
+    desc: "I developed a comprehensive Learning Management System (LMS) using the MERN stack (MongoDB, Express.js, React.js, and Node.js), featuring a user-friendly admin panel for managing course content, user authentication, and secure course purchase options.",
+    img: "/orion.png",
+    link: "https://ocispcbd.com/",
   },
   {
     id: 2,
     color: "from-blue-300 to-violet-300",
-    title: "Next.js Medium Blog",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    title: "Rock Metal T-shirt",
+    desc: "I developed an e-commerce platform called Rock Metal T-Shirt using the MERN stack (MongoDB, Express.js, React.js, and Node.js). This site focuses on selling T-shirts and hoodies and integrates secure user authentication through JWT tokens. With a responsive design and smooth user experience, the platform enables users to browse, select, and purchase items easily.",
+    img: "/rock-metal.png",
+    link: "https://rockmetaltshirt.com.bd/",
   },
   {
     id: 3,
     color: "from-violet-300 to-purple-300",
-    title: "Vanilla Book App",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Easy Go",
+    desc: "I created a versatile platform called Easy Go using the MERN stack (MongoDB, Express.js, React.js, and Node.js). This multipurpose website allows users to book bike rides, send parcels, and purchase medicines and local products, all within a single, cohesive platform.",
     img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    link: "https://easygo.com.bd",
   },
   {
     id: 4,
     color: "from-purple-300 to-red-300",
-    title: "Spotify Music App",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    title: "Hotel Greenland",
+    desc: "I developed a comprehensive hotel management system that facilitates seamless hotel bookings and online payments. This platform provides users with an intuitive interface to search for available accommodations, view details, and make secure payments",
     img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "https://lama.dev",
+    link: "http://hotelgreenlandbd.com",
   },
 ];
 
@@ -74,8 +74,12 @@ const PortfolioPage = () => {
                   <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px]">
                     {item.desc}
                   </p>
-                  <Link href={item.link} className="flex justify-end">
-                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">
+                  <Link
+                    href={item.link}
+                    target="_blank"
+                    className="flex justify-end"
+                  >
+                    <button className="text-sm md:p-4 md:text-md lg:text-lg bg-white text-gray-600 font-semibold mb-4 rounded">
                       See Demo
                     </button>
                   </Link>
