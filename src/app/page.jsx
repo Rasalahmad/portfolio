@@ -33,10 +33,11 @@ const Homepage = () => {
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
             <Link
-              href={"/portfolio"}
+              href={"/resume.pdf"}
+              target="_blank"
               className="p-4 rounded-lg ring-1 ring-black bg-black text-white"
             >
-              View My Work
+              View My Resume
             </Link>
             <Link
               href={"/contact"}
