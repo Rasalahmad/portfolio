@@ -8,6 +8,8 @@ const ContactPage = () => {
   const [error, setError] = useState(false);
   const text = "Say Hello";
 
+  console.log("Hello World")
+
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
